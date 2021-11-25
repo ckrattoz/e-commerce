@@ -36,7 +36,7 @@ export default {
     }
   },
   mounted() {
-    console.log("this.$auth", this.$auth);
+    // console.log("this.$auth", this.$auth);
     this.login();
   },
   methods: {
