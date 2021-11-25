@@ -2,7 +2,7 @@
   <div>
     <header class="bg-white black-80 tc pt4 avenir">
       <a href="/">
-        <cld-image public-id="store/logo_ja9ugi"></cld-image>
+        <cld-image public-id="v1637784687/store/logo_ja9ugi"></cld-image>
       </a>
       <h1 class="mt2 mb0 baskerville i fw1 f1 mh2">Rayo E-Store</h1>
       <h2 class="mt2 mb0 f6 fw4 ttc tracked i">Your satisfaction is our utmost pleasure...</h2>
@@ -35,7 +35,10 @@ export default {
        return this.$store.getters.cartIteming
     }
   },
-
+  mounted() {
+    console.log("this.$auth", this.$auth);
+    this.login();
+  },
   methods: {
     login() {
       this.$auth.loginWithRedirect();

@@ -11,7 +11,7 @@ import { Auth0Plugin } from "./auth";
 
 Vue.use(Cloudinary, {
   configuration: { 
-    cloudName: "moerayo",
+    cloudName: "ckrattoz",
     secure: true }
 });
 

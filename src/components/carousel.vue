@@ -13,11 +13,11 @@ export default {
   data() {
     return {
       images: [
-       "store/carousel8_fstjay",
-       "store/carousel3_vke2hj",
-       "store/carousel5_oaiwht",
-       "store/carousel7_ocjkzc",
-       "store/crousel4_cnv8uf",
+       "v1637784687/store/carousel8_fstjay",
+       "v1637784687/store/carousel3_vke2hj",
+       "v1637784687/store/carousel5_oaiwht",
+       "v1637784687/store/carousel7_ocjkzc",
+       "v1637784687/store/crousel4_cnv8uf",
       ],
       timer: null,
       currentIndex: 0
